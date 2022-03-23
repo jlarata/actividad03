@@ -1,36 +1,28 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Veterinaria Cuki</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <title>Veterinaria Cuki</title>
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- titulo -->
-<div class="header">
+<div id="head" class="header">
 <h1>Veterinaria Cuki</h1>
 </div>
     <!-- div menu a la derecha : nosotros - servicios - contacto -->
 
     <div class="menu"> <ul class="menu">
-        <li>Nosotros</li>
-        <li>Servicios</li>
-        <li>Contacto</li>
+        <a href="#pres"><li>Nosotros</li></a>
+        <a href="#ser"><li>Servicios</li></a>
+        <a href="#con"><li>Contacto</li></a>
     </ul>
   </div>
 
     <!-- div presentacion texto plano -->
-<div class="presentacion">
+<div id="pres" class="presentacion">
 <p>En la <negritacursiva>Veterinaria Cuki</negritacursiva> contamos con un equipo de trabajo altamente idóneo para atender a
 nuestros mejores amigos. Conjugamos las <negrita>mejores instalaciones</negrita> para la atención y el cuidado de sus
 mascotas, con los <negrita>profesionales más capacitados</negrita> en la asistencia veterinaria. <negritacursiva>La salud de nuestras
@@ -39,252 +31,43 @@ mascotas es tan importante como la de cualquier integrante de la familia, por es
 </div>
     <!-- div servicios con tres div, estas con imagen y texto -->
 
-    <div class="servicios">
-
-<h1>Servicios</h1>
-
-</div>
-<!-- ESTO NO ESTÁ FUNCIONANDO PROBAR GOOGLEAR CÓMO ARMAR TABLAS EN HTML -->
-
-        <ul class="serviciosb"><li>
-3 Consultorios de atención simultáneas para revisiones generales, diagnóstico y controles
-
-</li>
-
-      <li>
-        Consultas y vacunación a domicilio, el mismo servicio con la comodidad de no trasladar a
-        la mascota hacia nuestra clínica.
-      </li>
-      <li>
-      Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en Cardiología
-      Servicio de odontología, limpieza de dientes por ultrasonido.</li></ul>
+    <div id="ser" class="servicios">
+      <h1>Servicios</h1>
+        <div class="servicios1">
+          <img class="avatar" src="images/india.jpg">
+          <p>3 Consultorios de atención simultáneas para revisiones generales, diagnóstico y controles.</p>
+        </div>
+        <div class="servicios3">
+          <img class="avatar" src="images/india.jpg">
+          <p>Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en Cardiología Servicio de odontología, limpieza de dientes por ultrasonido.</p>
+        </div>
+        <div class="servicios2"><img class="avatarb" src="images/india.jpg">
+          <p>Consultas y vacunación a domicilio, el mismo servicio con la comodidad de no trasladar a la mascota hacia nuestra clínica.</p>
+        </div>
 
     </div>
 
+    <!-- div contacto con dos div uno de iconos otro de texto plano-->
 
-    <!-- div contacto con dos div uno de iconos otro de texto plano -->
+    <div id="con" class="contacto">
 
-    <div id="" class="">
-
-      <div id="" class="">
-
-contacto íconos
-
+      <div id="" class="contactoi">
+        <a href=http://www.facebook.com><img class="icono" src="images/faceicon.png"></a>
+        <a href=http://www.instagram.com><img class="icono" src="images/instaicon.jpg"></a>
+        <a href=http://www.whatsapp.com><img class="icono" src="images/wappicon.png"></a>
       </div>
 
-      <div id="" class="">
+      <div id="" class="contactot">
 
-copiright
+<p>Veterinaria Cuki - Luis Agote 250 Bº Mirador</p>
 
       </div>
 
     </div>
 
-
-
-
-<!--
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Ariel Wasserman</h1>
-            <h2>Desarrollador</h2>
-            <a href="#" class="btn-rounded-white">Descargar currículum</a>
+        <div class="volver">
+          <a href="#head"><negrita>Ir arriba</negrita></a>
         </div>
-
-          <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-
-    </div>
-
-
-    <div id="about" class="background-alt">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">Quién soy</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Soy la venganza.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experiencia</h2>
-        <div id="experience-timeline">
-            <div data-date="Agosto 2013 – Actual">
-                <h3>Colegio Paideia</h3>
-                <h4>Profesor de lengua y literatura</h4>
-                <p>
-                    Literatura clásica y moderna, sintaxis y gramática. Cursos iniciales y superiores.
-                </p>
-            </div>
-
-            <div data-date="Febrero 2006 – Actual">
-                <h3>Consejo Federal de la energía eléctrica</h3>
-                <h4>Asesor técnico</h4>
-                <p>
-                    Control de documentación, base de datos y redacción de informes.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Wizards of the Coast</h3>
-                <h4>Director creativo</h4>
-                <p>
-                    Diseño y planificación de concepto de sets y expansiones.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="education" class="background-alt">
-        <h2 class="heading">Educación</h2>
-        <div class="education-block">
-            <h3>Universidad de Buenos Aires</h3>
-            <span class="education-date">2005-2015</span>
-            <h4>Profesorado en Letras</h4>
-            <h4>Licenciatura en Letras</h4>
-            <p>
-                Especialización en Teoría Literaria.
-            </p>
-        </div>
-
-
-        <div class="education-block">
-            <h3>Universidad de tres de Febrero</h3>
-            <span class="education-date">2020 - 2021</span>
-            <h4>Maestría en Estudios Literarios Latinoamericanos</h4>
-            <ul>
-                <li>
-                    En proceso de redacción de Tesis.
-                </li>
-            </ul>
-        </div>
-
-    </div>
-    <!--
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Proyectos</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/d3c.jpg">
-                    </div>
-                    <!-- End
-                    <div class="project-info">
-                        <h3>d3c</h3>
-                        <p>
-                            Anti-Depressive Leninist Gaming
-                        </p>
-                        <a href="#">Ver proyecto</a>
-                    </div>
-                    <!-- End
-                </div>
-                <!-- End
-
-                <div class="project shadow-large">
-                    <div class="project-image02">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End
-                    <div class="project-info02">
-                        <h3> Facebook</h3>
-                        <p>
-                                      Inventé Facebook.
-                        </p>
-                        <a href="#">Ver proyecto</a>
-                    </div>
-                    <!-- End
-                </div>
-                <!-- End
-            </div>
-        </div>
-    </div>
-    <!-- End
-
-    <div id="skills" class="background-alt">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>antipático</li>
-            <li>paciente</li>
-            <li>generoso</li>
-            <li>puedo tocar la mayor parte de "mood for a day" con dos dedos</li>
-
-        </ul>
-    </div>
-    <!-- End
-
-    <div id="contact">
-        <h2>Escribime</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="tu dirección de correo" required>
-                <textarea name="message" placeholder="tu mensaje" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-
-
-        <!-- End
-    </div>
-    <!-- End
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="current-year">2022</span> ari
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
--->
 
 </body>
 
